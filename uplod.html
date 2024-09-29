@@ -63,7 +63,7 @@
         const formData = new FormData();
         formData.append('file', file);
 
-        fetch('https://uguu.se/api.php?d=upload-tool', {
+        fetch('https://uguu.se/upload.php', {
             method: 'POST',
             body: formData
         })
